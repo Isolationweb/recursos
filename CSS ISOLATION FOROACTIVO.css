@@ -1,0 +1,1578 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+/* ----------------------------
+----------- OVERALL_HEADER - CABEZA DE PÁGINA
+-----------------------------*/
+/*Fondo de la página*/
+body {
+	height: auto;
+	background-color: #252525;
+	background-image: url('http://i.imgur.com/BJnBNQJ.png');
+	background-position: top;
+	background-attachment: fixed;
+	background-size: ;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	color: #9C9C9C;
+	font-family: 'Montserrat';
+	font-size: 10px;
+}
+/*Fondo de todo el contenido*/
+#wrap {
+	width: 970px;
+	border: none;
+	padding: 0 0 10px 0;
+	background-color: transparent;
+}
+
+/*Cuerpo de la cabecera*/
+.headerbar {
+	display: none;
+	height: ;
+	padding: 0px;
+}
+#page-header {
+	height: auto;
+	background-color: transparent;
+	border: 0px solid #53A194;
+	padding: 0px;
+}
+/*Cuerpo de el inicio y fin de la página*/
+#page-body, #page-footer {
+	width: 950px;
+	margin: auto;
+	padding: 25px;
+	background-color: #F8F8F8;
+}
+	#content-container div#content {
+		margin-right: 0px;
+	}
+
+/* ----------------------------
+----------- CABECERA
+-----------------------------*/
+
+.head-intro {
+	background-image: url('http://i.imgur.com/tcBhXqX.png');
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 500px;
+	text-align: left;
+	display: table-cell;
+	vertical-align: bottom;}
+
+.head-intro h1 {
+	margin: 0px !important;
+	padding: 20px !important;
+	color: #F2F2F2;
+	font-family: 'Montserrat' !important;
+	font-size: 112px;
+	font-weight: 400 !important;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	text-shadow: -3px -3px 0px rgba(255,255,255,.4) ;
+	/*textura de texto*/
+	background: -webkit-linear-gradient(transparent, transparent), top right url(http://i.imgur.com/Ole415H.png);
+	-webkit-text-fill-color: transparent;
+	background-size: auto;
+	background: -o-linear-gradient(transparent, transparent);
+	-webkit-background-clip: text!important;
+}
+/*BARRAS DE NAVEGACIÓN*/
+#page-header .navbar {
+	margin-bottom: -10px;
+	background-color: transparent
+}
+.navbar {
+	background-color: #111111;
+	padding: 10px;
+	font-family: 'Open Sans Condensed';
+	color: #F6F6F6;
+}
+.navbar a:link {
+	font-family: 'Open Sans Condensed';
+	color: rgba(246, 246, 246,1);
+}
+.navbar a:visited {
+	color: rgba(246, 246, 246,1);
+}
+.navbar a:hover {
+    color: #DD2F3A !important;
+}
+
+
+/* ----------------------------
+----------- TABLON DE ANUNCIOS
+-----------------------------*/
+.panel.introduction {
+	padding: 10px 0px;
+}
+#tab {
+	display: inline-block;
+	position: relative;
+	width: 900px;
+	height: 252px;
+	background-color: #F2F2F2;
+	margin: 0 auto;
+	text-align: center;}
+.tab-titulos, .tab-contenido {
+	display: table;
+	position: relative;
+	width: 900px;
+	height: 250px;
+	background-image: url('http://i.imgur.com/Fft0Fzg.png');
+	border-spacing: 20px;
+	padding: 50px 0px 10px 0px;}
+.tab-contenido {
+	position: absolute;
+	top: 0px;
+	background-image: url('http://i.imgur.com/7aY97EW.png');
+	background-color: #F8F8F8;}
+
+	/*CELDA*/
+	.tab-row {
+		display: table-row;
+		height: 150px;
+		background-color: rgba(204,204,204,.0);}
+	.tab-cell {
+		display: table-cell;
+		border: 1px solid rgba(17,17,17,.1);}
+		.intro  {
+			width: 200px;
+			border: 1px solid rgba(17,17,17,.0);
+			vertical-align: bottom;	}
+		.anuncios {width: 300px;}
+		.censo {width: 150px; vertical-align: top;}
+		.staff {width: 150px; vertical-align: top;}
+	
+	/*TITULOS*/
+	/*INTRO BOTON*/
+	.tab-boton, .tab-boton.active {
+		cursor: pointer;
+		position: absolute;
+		top: 0;
+		background: url('http://i.imgur.com/Ds2UwQO.png') no-repeat;
+		background-size: cover;
+		width: 213px;
+		height: 214px;
+		image-rendering: -webkit-optimize-contrast;
+		image-rendering: crisp-edges;
+		transition: all 1s ease-out;
+		-moz-transition: all 1s ease-out;
+		-webkit-transition: all 1s ease-out;}
+	.tab-boton {
+		width: 90px; height:90px;}
+		
+	.tab-boton:hover, .tab-boton.active:hover {background: url('http://i.imgur.com/eJSECg9.png') no-repeat;
+		background-size: cover;
+		transition: all 1s ease-out;
+		-moz-transition: all 1s ease-out;
+		-webkit-transition: all 1s ease-out;}
+	
+	.tab-titulos h1,
+	.tab-contenido h1 {
+		display: block;
+		position: absolute;
+		margin: 0 !important;
+		font-family: 'Montserrat' !important;
+		font-weight: 400 !important;
+		text-align: left;
+		line-height: 100%;
+		white-space: pre-wrap;
+		word-wrap: break-word;
+		/*textura de texto*/
+		-webkit-text-fill-color: transparent;
+		background-size: contain;
+		background: -o-linear-gradient(transparent, transparent);
+		-webkit-background-clip: text!important;}
+	.tab-titulos h1 {
+		top: 140px;
+		width: 100px;
+		padding: 0px 10px !important;
+		font-size: 35px;
+		/*textura de texto*/
+		background: -webkit-linear-gradient(transparent, transparent), top right url(http://i.imgur.com/ss82wo7.png);}
+	.anuncios h1 { width: 150px;}
+	
+	.tab-contenido h1 {
+		top: 40px;
+		width: 150px;
+		padding: 0px !important;
+		font-size: 25px;
+		white-space: normal;
+		word-wrap: normal;
+		/*textura de texto*/
+		background: -webkit-linear-gradient(transparent, transparent), 50% 30% url(http://i.imgur.com/wINoTAi.png);}
+	.censo .sub b {
+		font-family: 'Open Sans Condensed';
+		font-size: 18px; 
+		-webkit-text-fill-color: #DD2F3A;}
+	
+	/*CONTENIDO*/
+	/* ----------- INTRO*/
+	.intro ul {
+		list-style: none !important;
+		padding-left: 50;
+		margin: 0 ;
+		text-align: left;
+	}
+	.intro li:before {
+		content: '+';
+		display: inline-block;
+		margin-right: 5px;
+		color: #525252;
+		font-family: 'Verdana';
+		font-size: 15px;
+		font-weight: 700;
+		line-height: 13px;
+		/* Rotate div */
+		transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg); /* IE 9 */
+		-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+		transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		-webkit-transition: all .3s ease;}
+	.intro li a {
+		color: #111;
+		font-family: 'Open Sans Condensed';
+		font-size: 13px;
+		font-weight: 700;
+		line-height: 15px;
+		letter-spacing: 3px;}
+	.intro li:hover:before,
+	.intro a:hover {color: #DD2F3A;}
+	
+	/* ----------- ANUNCIOS*/
+	.anuncios .a-nota {
+		display: inline-block;
+		width: 95px;
+		height: 148px;
+		text-align: left;
+		padding: 2px;}
+	.anuncios h2, .censo h2, .staff h2 {
+		margin: 0px 0;
+		padding: 2px;
+		color: #DD2F3A;
+		font-family: 'Open Sans Condensed';
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 17px;}
+	.anuncios h2 b, .censo h2 b {
+		color: #111;
+		font-size: 11px;
+		text-transform: uppercase;}
+	.anuncios span a {
+	
+		display: block;
+		height: 120px;
+		margin: 0;
+		margin-bottom: 0px;
+		padding: 0;
+		color: #9C9C9C;
+		font-size: 11px;
+		line-height: 12px;
+		text-transform: none;
+		overflow : hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 10;
+		-webkit-box-orient: vertical;}
+	.anuncios .a-nota a:hover {
+		color: #C9C9C9;
+		text-shadow: none;}
+	.anuncios .s-m-t-tooltip {
+		background: #111 !important;
+	}
+	/* ----------- CENSO*/
+	.tab-contenido .censo {
+		background: url('http://i.imgur.com/f7v1tvq.png');
+		background-size: contain;
+		image-rendering: -webkit-optimize-contrast;
+		image-rendering: crisp-edges;
+	}
+	.censo .c-grupo {
+		display: inline-block;
+		width: 70px;
+		margin: 0;}
+	.censo i, .staff i {
+		font-size: 15px;
+		line-height: 15px;}
+	.censo .hr-v, .censo .hr-h {
+		border-width: 1px 1px 0px 0px;
+		border-style: solid;
+		border-color: #C9C9C9;}
+	.censo img {
+		margin: 16px 5px;
+	}
+		
+	/* ----------- STAFF*/
+	.staff .s-user {
+		width: 150px;
+		height: 75px;
+		padding: 10px;
+	}
+	.staff .s-user-info {
+		background-color: rgba(17,17,17,.6);
+		padding: 5px 0px;
+		opacity: 0;
+		font-family: 'Montserrat';
+		transition: all .7s ease-out;
+		-moz-transition: all .7s ease-out;
+		-webkit-transition: all .7s ease-out;}
+	.staff .s-user:hover .s-user-info {opacity: 1;}
+	.staff .s-user h2, .staff .s-user i {color: #C9C9C9;}
+	.staff .s-user i {
+		padding: 5px;
+		transition: all .3s ease-out;
+		-moz-transition: all .3s ease-out;
+		-webkit-transition: all .3s ease-out;}
+	.staff .s-user i:hover {color: #9C9C9C;}
+
+/* ----------------------------
+----------- SIDEBAR
+-----------------------------*/
+#left div::-webkit-scrollbar-thumb:vertical {
+	background-color: #111111;
+	width: 5px;
+	margin: 5px;
+	border-top: 5px solid #F2F2F2;
+	border-right: 5px solid #F2F2F2;
+}
+#left div::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+    background-color: #F2F2F2;
+	border-top: 5px solid #F2F2F2;
+	border-right: 5px solid #F2F2F2;
+}
+#content-container div#left {
+	z-index: 98;
+	position: fixed;
+	top: 10px;
+	right: 0;
+	float: none !important;
+	width: 240px;
+	height: 90%;
+	background-color: transparent;
+	margin: 0px;
+	padding: 0px;
+}
+#forum-widget {
+	z-index: 100;
+	position: fixed;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	width: auto;
+	height: 30px;
+	background-color: transparent;
+	margin: 0px;
+	padding: 5px;
+	text-shadow: 0px 2px 2px #111111;
+	transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+}
+#forum-widget .tacha {
+	font-size: 30px !important;
+}
+#left .module {
+	padding: 0px;
+	color: #333;
+}
+
+	/* ----------- PERSONALIZADO */
+	/*CAJA COMPLETA*/
+	#sidebar-tab {
+		display: block;
+		width: 240px;
+		height: 100%;
+		background-color: transparent;
+		margin: 0px;
+		padding: 0px;
+		overflow: auto;}
+	/*BOTONES CUERPO*/
+	#sidebar-botones {
+		float: right;}
+	#sidebar-botones div {
+		display: block;
+		position: relative;
+		opacity: .5;
+		width: 30px;
+		height: 30px;
+		background-image: url('http://i.imgur.com/cVOVtqf.png');
+		margin: 0px 5px 10px 5px;
+		border-radius: 1px;
+		padding: 0px;
+		color: #111111;
+		text-align: center;
+		cursor: pointer;
+		transition: all 0.5s ease-out;
+		-moz-transition: all 0.5s ease-out;
+		-webkit-transition: all 0.5s ease-out;}
+	
+		#sidebar-botones div .botonicono {
+			font-size: 20px;
+			line-height: 30px;}
+		#sidebar-botones div:hover  { 
+			opacity: 1;
+			transition: all 0.5s ease-out;
+			-moz-transition: all 0.5s ease-out;
+			-webkit-transition: all 0.5s ease-out;}
+		#sidebar-botones .activo {
+			cursor: pointer;
+			opacity: 1;}
+	
+	/*CONTENIDO CUERPO*/
+	.sidebar-cont {display: block;}
+	.sidebar-info {
+		position: absolute;
+		display: none;
+		height: 100%;}
+	.sidebar-contenido {
+		z-index: 2;
+		float: right;
+		width: 200px;
+		min-height: 200px;
+		max-height: 100%;
+		background: url('http://i.imgur.com/d1BXbEr.png') top left local, url('http://imgur.com/SzIY42N.png') bottom left;
+		background-repeat: no-repeat;
+		overflow: auto;}
+	  /*ESTILO DE CONTENIDO*/
+	  .sidebar-widget {
+		  padding: 10px;
+		  text-transform: uppercase;
+		  font-size: 9px;}
+	  .sidebar-widget .h3 {display: none}
+	  .sidebar-widget #widget-ultimostemas, 
+	  .sidebar-widget #widget-quienestaenlinea, 
+	  .sidebar-widget #widget-busquedas {margin-top: 10px;}
+		/*titulos 2/3/4*/
+		.sidebar-widget .sidebar-titulo {
+			margin-bottom: 0px;
+			border-bottom: 1px solid #DD2F3A;
+			padding: 0px 5px 5px 5px;
+			color: #F6F6F6;
+			font-family: 'Open Sans Condensed';
+			font-size: 18px;
+			font-weight: 400;
+			letter-spacing: 5px;
+			text-transform: uppercase;
+			text-shadow: 1px 0px 0px #111111,-1px 0px 0px #DD2F3A, 2px 0px 0px #111111,-1px 0px 0px #DD2F3A, 3px 0px 0px #111111,-1px 0px 0px #DD2F3A;}
+		.sidebar-widget .sidebar-subtitulo {
+			display: block;
+			border-top: 2px solid #111111;
+			padding: 5px 5px;
+			color: #111;
+			font-family: 'Open Sans Condensed';
+			font-size: 12px;
+			font-weight: 700;
+			letter-spacing: 2px;
+			text-transform: lowercase;}
+		/*link*/
+		.sidebar-widget a {
+			font-weight: 700;
+			font-size: 10px;}
+			/*conexión*/
+			.sidebar-widget #widget-conexion {
+				margin-top: 10px;}
+			.sidebar-widget #widget-conexion .h3 {display: block;}
+			.sidebar-widget #widget-conexion .h3 {
+				display: table-cell;
+				width: 170px;
+				height: 60px;
+				padding: 0px;
+				padding-left: 10px;
+				font-family: 'Open Sans Condensed';
+				font-size: 12px;
+				letter-spacing: 1.5px;
+				text-align: center;
+				vertical-align: middle;}
+			.sidebar-widget #widget-conexion .h3 b {
+				display: block;
+				padding: 5px 0px;
+				color: #9C9C9C;
+				font-size: 18px;
+				text-shadow: 0px 1px 1px #111;
+				line-height: 95%;
+				letter-spacing: .5px;}
+			.sidebar-widget .sidebarsubtitulo {
+				display: block;
+				width: 160px;
+				margin: 10px 5px 0px 5px; 
+				padding: 5px 5px;
+				color: #111;
+				font-family: 'Montserrat';
+				font-size: 10px;
+				font-weight: 400;
+				line-height: 100%;
+				text-align: justify;
+				text-transform: none;}
+			.sidebar-widget .sidebarsubtitulo b,
+			.sidebar-widget .sidebarsubtitulo i {
+				font-size: 10px;
+				text-transform: uppercase;
+				text-shadow: none;
+				text-align: left;}
+			.sidebar-widget .sidebarsubtitulo i {
+				display: block;
+				padding: 3px 1px;
+				font-weight: 700;
+				font-style: normal;
+				text-align: center;}
+				/*conectado*/
+				.mod-login-avatar img {
+					width: 90px;
+					margin: 0px;
+					border-radius: 0px;}
+				.mod-login-avatar dt {
+					border-radius: 0px;
+					border: 1px solid #C9C9C9;
+					padding: 5px;}
+				.mod-login {
+					padding-top: 25px;}
+				/*sin conexion*/
+				#widget-conexion form {
+					text-align: right;}
+				#widget-conexion p {
+					margin-bottom: 5px;
+					padding: 0px 10px;
+					font-size: 9px;}
+			/*link de conexion*/
+			#my-top-linklist {
+				margin-left: 5px;
+				border-left: 1px solid #9C9C9C;
+				padding-left: 5px}
+			#my-top-linklist a {display:block; color: #111;}
+			#my-top-linklist a:hover {color: #DD2F3A;}
+			
+			/*ultimos temas*/
+			.sidebar-widget .temareciente {
+				background: rgba(204,204,204,.3);
+				margin-bottom: 5px;
+				border: 1px solid #C9C9C9;
+				padding: 3px 5px;}
+			.sidebar-widget .temareciente-link {
+				margin-bottom: 3px;
+				border-bottom: 1px solid #9c9c9c;
+				text-align: left;
+				text-transform: none !important;}
+			.sidebar-widget .temareciente-link a {
+				text-transform: none !important;
+				color: #111;
+				font-size: 11px;}
+			.sidebar-widget .temareciente-link a:hover {color: #DD2F3A;}
+			.sidebar-widget .temareciente-info {text-align: right; line-height: 95%}
+
+			/*estadisticas*/
+			.sidebar-widget strong a span strong {
+				display: block;
+				padding-top: 10px;
+				font-family: 'Open Sans Condensed';
+				font-size: 18px;
+				line-height: 100%;
+				text-align: center;}
+			/*busquedas*/
+			.sidebar-widget #widget-busquedas .topictitle {
+				display: block;
+				background: rgba(204,204,204,.3) url('http://i.imgur.com/JrbPcUd.png') no-repeat 5px center;
+				background-size: 10px;
+				margin-bottom: 5px;
+				border: 1px solid #C9C9C9;
+				padding: 7px;
+				padding-left: 25px;}
+			.sidebar-widget #widget-busquedas .topictitle:hover {
+				background: url('http://i.imgur.com/4tpDaSp.png') no-repeat 5px center;
+				background-size: 10px;}
+
+/* ----------------------------
+----------- ESTILO DE LINKS
+-----------------------------*/
+/* link sin visitar*/
+a:link {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	text-decoration: none !important;
+	text-shadow: -1.5px -1.5px 0px transparent;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+a:hover {
+    color: #DD2F3A;
+	text-decoration: none !important;
+	text-shadow: -.1em -.1em 0px rgba(221,47,58,.3) ;
+}
+
+/*HOVER DE USUARIOS*/
+a.gensmall, a span strong {
+	text-shadow: none;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+b a.gensmall:hover, a:hover span strong {
+	text-shadow: none;-webkit-filter: invert(50%);
+filter:invert(50%);}
+/* ----------------------------
+----------- ESTILO DE TITULOS	
+-----------------------------*/
+/*TITULO PRINCIPAL DE CADA PAGINA*/
+h1, .catHead {
+	margin: 0px 0px 20px 0px !important;
+	font-family: 'Open Sans Condensed' !important;
+	font-weight: 700 !important;
+	text-transform: uppercase;
+	padding: 10px !important;
+}
+	.page-title, table.forumline td.catHead, table.forumline tr:hover td.catHead {
+		background-color: #111111;
+		color: #F6F6F6 !important;
+	}
+	
+	h1.forum-page-title {
+		margin-bottom: 0px !important;
+		border-color: #DD2F3A;
+		border-style: solid;
+		border-width: 0px 0px 5px 0px;
+		padding: 5px 10px !important;
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.forum-page-title a:link {
+		font-family: 'Open Sans Condensed' !important;
+		color: rgba(221,47,58,1);
+	}
+	.forum-page-title a:visited {
+		color: rgba(221,47,58,.8);
+	}
+	.forum-page-title a:before {
+		content: '+';
+		display: inline-block;
+		margin-right: 5px;
+		color: #DD2F3A;
+		font-family: 'Verdana';
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 30px;
+		/* Rotate div */
+		transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg); /* IE 9 */
+		-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+	}
+	.forum-page-title a:hover:before {
+		color: #111111;
+	}
+
+h2 {
+	color: #111111;
+	font-family: 'Open Sans Condensed';
+	font-weight: 700;
+	line-height: 105%;
+}
+	.table-title {
+		font-size: 4em;
+	}
+	h2 sup {display: none;}
+	h2 sub {display: inline-block;}
+
+sup {
+	vertical-align: baseline;
+	font-size: inherit;
+}
+sub {
+	display: none;
+	vertical-align: baseline;
+	font-size: inherit;
+}
+
+
+/* ----------------------------
+----------- ESTILO DE SUBTITULOS	
+-----------------------------*/
+.h3, dl.faq dt, .forumline tr th, .table1 tr th, .table1 .row3 td {
+    margin-bottom: 10px !important;
+    padding: 3px 20px;
+    border-bottom: 2px solid #111111;
+    color: #111111;
+    font-family: 'Montserrat';
+	font-size: 14px;
+    font-weight: 700 !important;
+    line-height: 100%;
+    letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.forumline tr th, .table1 .row3 td {
+	border-bottom-color: #9C9C9C;
+	font-size: 11px;
+	text-transform: lowercase;
+}
+
+
+
+/* ----------------------------
+----------- BOTONES	
+-----------------------------*/
+.buttons, .buttons div {
+	float: none !important;
+}
+
+input.button, input.button1, input.button2 {
+	background: #111111 !important;
+	border: 0px !important;
+	padding: 5px 6px !important;
+	color: #F6F6F6 !important;
+	font-family: 'Open Sans Condensed' !important;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+input.button:hover, input.button1:hover, input.button2:hover {
+	background: #DD2F3A !important;
+}
+
+
+
+/* ----------------------------
+----------- INDEX_BOX - PÁGINA DE BIENVENIDA
+----------- ANUNCIO DE CATEGORÍAS	
+-----------------------------*/
+.top-linklist {display: none;}
+
+.categorias {background: #F8F8F8 url(http://i.imgur.com/kOOPz9h.png);}
+.categorias .forabg {
+	margin: 0px;
+	border-top: 20px solid #F8F8F8;
+	padding: 0px;
+}
+.categorias .forabg:first-of-type {
+	border-top: 0px;
+}
+
+/*Cabecera*/
+.categorias .forabg .forums {padding: 0;}
+.categorias .forabg .header .dterm {
+	float: none;
+	width: 100%;
+	margin: 0px;
+	padding: 5px 10px;
+}
+.categorias .forabg .header .topics, 
+.categorias .forabg .header .posts, 
+.categorias .forabg .header .lastpost {display: none;}
+/*Cuerpo*/
+.categorias .forabg .row {
+	width: auto; 
+	margin: 0 20px; 
+	padding: 10px 20px; 
+}
+.categorias table {width: 100%;}
+.categorias table .informacion {width: 360px;}
+.categorias table .descripcion {width: 450px;}
+/*Contenido Izquierda*/
+.categorias .forabg .row .dterm {
+	width: 100%;
+	border-bottom: 2px solid #525252;
+	text-align: right;
+}
+	a.forumtitle, a.forumtitle sup {
+    color: #DD2F3A !important;
+    font-size: 21px !important;
+    text-transform: uppercase;
+	line-height: 100%;
+	}
+	/*Lastpost*/
+	.categorias .forabg .row .lastpost {
+		width: 92.5%; 
+		margin-left: 7.5%;
+		text-align: right;
+	}
+	.categorias .lastpost span {
+		display: inline-block !important;
+	}
+	.categorias .forabg .row .lastpost .color-groups {
+		float: none;
+		display: inline;
+		padding: 0 5px;
+		font-size: 18px;
+		font-weight: 100;
+		text-transform: lowercase;
+	}
+	.categorias .forabg .row .lastpost .last-post-icon {display: inline-block;}
+	.categorias .lastpost-avatar {
+		float: right;
+		width: 50px;
+		height: 50px;
+		margin: 0 10px;
+		border-radius: 0px;
+		border: 1px solid #C9C9C9;
+		padding: 5px;
+	}
+	.categorias .lastpost-avatar img {
+		opacity: 1;
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		border-radius: 0px;
+	}
+/*Contenido Derecha*/
+.categorias .forabg .topics dfn, 
+.categorias .forabg .posts dfn {display: block;}
+.categorias .forabg .topics, 
+.categorias .forabg .posts {
+}
+.categorias .forabg .row .description {
+	width: 100%; /*450px*/
+	background-color: rgba(204,204,204,.0);
+	padding: 0px 10px;
+}
+
+/* ----------------------------
+----------- SEARCH_RESULS_TOPICS
+----------- RESULTADOS DE BÚSUQEDA/TEMAS
+-----------------------------*/
+form .forabg {
+	border-bottom: 1px dotted #525252;
+	padding: 5px;
+}
+/*Cabecera*/
+form .forabg .header {
+	background-color: rgba(204,204,204,.2);
+	margin-bottom: 10px;
+	border-bottom: 2px solid #525252;
+	padding: 5px 10px;
+}
+form .forabg .header dt,
+form .forabg .header dd {
+	margin: 0px;
+	border: none;
+	padding: 0px;
+}
+form .forabg .header dt {
+	width: 535px;
+	color: #DD2F3A;
+}
+/*Cuerpo*/
+form .forabg .row  {
+	display: table;
+	width: 100%;
+}
+form .forabg .row .dterm {width: 540px !important;}
+form .forabg .row .posts,
+form .forabg .row. views {width: 70px}
+form .forabg .row .lastpost {width: 200px;}
+/*All*/
+form .forabg .row .dterm,
+form .forabg .row .posts,
+form .forabg .row .views,
+form .forabg .row .lastpost {
+	float: none !important;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Open Sans Condensed';
+}
+
+
+/* ----------------------------
+----------- TOPIC_LIST_BOX
+----------- ANUNCIO DE LOS TEMAS
+-----------------------------*/
+.forumbg {
+	border-bottom: 1px dotted #525252;
+	padding-bottom: 5px;
+}
+/*Cabecera*/
+.forumbg .header {
+	background-color: rgba(204,204,204,.2);
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	border-bottom: 2px solid #525252;
+	padding: 0px 10px;
+}
+.forumbg .header dt,
+.forumbg .header .dterm {
+	float: none;
+	display: inline-block;
+	width: 620px;
+	margin: 0px;
+	padding: 0px !important;
+	color: #DD2F3A;
+	font-weight: 700;
+}
+.forumbg .header .posts,
+.forumbg .header .views {display: none;}
+.forumbg .header .lastpost {
+	float: none;
+	display: inline-block;
+	width: 200px;
+	color: #111;
+}
+/*Cuerpo*/
+.forumbg .row  {
+	display: table;
+	width: 100%;
+}
+.forumbg dl.icon:after {
+	line-height: 0px; !important;
+}
+  /*Descripción del Tema*/
+  .forumbg .row .dterm {width: 490px;}
+  /*Respuestas & Vistos*/
+  .forumbg .row .posts,
+  .forumbg .row .views {
+	  width: 70px;
+	  line-height: 100%;}
+  .forumbg .posts dfn, 
+  .forumbg .views dfn {
+	  display: block !important;
+	  font-style: normal;
+	  font-weight: 400;
+	  text-transform: lowercase;
+  }
+  /*Ultimos Temas*/
+  .forumbg .row .lastpost {width: 260px;}
+  .forumbg .row .lastpost-avatar {
+	  float: left;
+	  width: 42px;
+	  height: 42px;
+	  margin: 0 5px 0 10px;
+	  border-radius: 0px;
+	  border: 1px solid #C9C9C9;
+	  padding: 3px;
+  }
+  .forumbg .row .lastpost-avatar img {
+	  opacity: 1;
+	  width: 100%;
+	  height: 100%;
+	  margin: 0px;
+	  border-radius: 0px;
+	  filter: grayscale(50%);
+	  -webkit-filter: grayscale(50%);
+	  -moz-filter: grayscale(50%);
+  }
+/*All*/
+.forumbg .row .dterm,
+.forumbg .row .posts,
+.forumbg .row .views,
+.forumbg .row .lastpost {
+	float: none !important;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Open Sans Condensed';
+}
+
+/* ----------------------------
+----------- VIEWFORUM_BODY
+----------- ANUNCIO DE UN FORO
+-----------------------------*/
+/* ----------- PAGINATION*/
+.pagination {
+	margin-bottom: 5px;
+	padding-right: 10px;
+	font-size: 10px;
+}
+
+/*ESTILO DENTRO DE UN ROW */
+.row .pagination {
+	background: url('https://db.tt/j6O9k5O1') left center no-repeat !important;
+	margin-bottom: 0px;
+}
+.pagination span a,
+.pagination span a:active,
+.pagination span a:link,
+.pagination span a:visited {
+	background-color: rgba(204,204,204,.3);
+	border-color: #C9C9C9;
+	font-family: 'Open Sans Condensed';
+	font-weight: 700;
+	padding: 0px 4px;
+}
+.pagination span a:hover {
+	background-color: #DD2F3A;
+	border-color: #DD2F3A;
+	color: #F6F6F6;
+}
+.pagination span strong {
+	background-color: #111;
+	border-color: #111;
+	font-family: 'Open Sans Condensed';
+	font-weight: 700;
+	padding: 0px 4px;
+}
+.pagination span {
+	line-height: 13px;
+}
+.pagination span a.pag-img {
+	background-color: transparent !important;
+	margin: 0px;
+	padding: 0px;
+}
+.pagination span a.pag-img img {
+	transition: all 0.0s ease-out;
+	-moz-transition: all 0.0s ease-out;
+	-webkit-transition: all 0.0s ease-out;
+}
+
+/* ----------- TOPIC ACTIONS*/
+.topic-actions {
+	display: block;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+p.nomargin.path, .pathname-box {
+	float: none;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 10px;
+	background-image: linear-gradient(-45deg, rgba(201, 201, 201,.5) 25%, transparent 25%, transparent 50%, rgba(201, 201, 201,.5) 50%, rgba(201, 201, 201,.5) 75%, transparent 75%, transparent);
+	background-size: 4px 4px;
+	color: #111111;
+	font-weight: 700;
+}
+form p.left-box {
+	border: none;
+	letter-spacing: 2px;
+}
+p.left-box {
+    float: left;
+    text-align: center;
+    width: 100%;
+    display: block;
+    border-top: 1px dotted #525252;
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+
+/* ----------- BOTONES*/
+.buttons {
+	float: none;
+	display: inline-block;
+	margin: 10px 0px;
+}
+
+
+/* ----------- SPRITE CSS*/
+/*DIRECCIONES*/
+.sprite-arrow_prosilver_down{
+	background: url("http://i.imgur.com/aMCGPSx.png") no-repeat;
+	background-position: top left;
+	width:9.4px;
+	height:9.4px;
+	}
+.sprite-arrow_prosilver_left{
+	background: url("http://i.imgur.com/jZd57RM.png") no-repeat;
+	background-position: top left;
+	width:9.4px;
+	height:9.4px;
+	}
+.sprite-arrow_prosilver_right{
+	background: url("http://i.imgur.com/FULm6lh.png") no-repeat;
+	background-position: top left;
+	width:9.4px;
+	height:9.4px;
+	}
+.sprite-arrow_prosilver_up{
+	background: url("http://i.imgur.com/cw6aE0o.png") no-repeat;
+	background-position: top left;
+	width:9.4px;
+	height:9.4px;
+	}
+.sprite-arrow_prosilver_down:hover,
+.sprite-arrow_prosilver_left:hover,
+.sprite-arrow_prosilver_right:hover,
+.sprite-arrow_prosilver_up:hover {
+	background-position: bottom left;
+}
+
+/* ----------- PIE DE HERRAMIENTAS*/
+.forum-footer {
+	background-color: rgba(204,204,204,.0);
+	border-top: 5px solid #DD2F3A;
+}
+.forum-footer .permissions, 
+.forum-footer .jumpbox, 
+.forum-footer .users, 
+.forum-footer .legend {
+	display: inline-block;
+	vertical-align: top;
+	margin: 1%;
+}
+.forum-footer .users {width: 56%;}
+.forum-footer .jumpbox {width: 40%;}
+.forum-footer .permissions {width: 30%;}
+.forum-footer .legend {width: 66%;}
+.forum-footer .legend b {
+	vertical-align: top;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+/* ----------------------------
+----------- VIEWTOPIC_BODY
+-----------------------------*/
+.post {
+	background-color: rgba(255,255,255,.9);
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border-width: 0px;
+	border-style: ridge;
+	border-color: #C9C9C9;
+	box-shadow: 0px 1px 2px #C9C9C9, 0px -1px 2px #C9C9C9;
+	padding: 10px;
+}
+/*COLUMNA UNO*/
+.postbody {width: 650px;}
+.postbody .post_title {
+	margin: 0px 10px 10px 0px ;
+	text-align: left;
+	border-bottom: 1px solid #C9C9C9;
+}
+.postbody .post_title table {width: 100%;}
+.postbody .post_title .ptitle_user {
+	width: 80px;
+}
+.postbody .post_title .ptitle_info {
+	width: 590px;
+}
+.postbody .post_avatar a img {
+	width: 70%;
+	margin: 10%;
+	margin-right: 20%;
+	border-radius: 50%;
+}
+	/* Invitados */
+	.postbody .post_avatar img {
+		width: 70%;
+		margin: 10%;
+		margin-right: 20%;
+		border-radius: 50%;
+	}
+.online {background-image: none;}
+.postbody .post_avatar .online {
+	display: inline-block;
+	position: relative;
+	bottom: 10px;
+	right: 30px;
+	width: 18px;
+	height: 18px;
+	background-color: #05CC47;
+	margin: 0 -20px 0 0;
+	border-radius: 50%;
+	border: 3px solid rgba(255,255,255,1);
+	padding: 0;
+	color: #05CC47;
+	font-size: 17px;
+	text-align: right;
+	text-transform: uppercase;
+}
+.postbody .ptitle_user .post_avatar .online:before {content: '•';}
+
+.postbody .topic-title {
+	font-family: 'Open Sans Condensed';
+	font-size: 11px;
+}
+.postbody ul.profile-icons {margin: 0px;}
+.postbody p.author {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans Condensed';
+	font-size: 11px;
+}
+.postbody .content {
+	padding: 10px;
+	color: #525252;
+	font-family: "Segoe UI", sans-serif;
+	text-align: justify;
+}
+/* ----------- SPOILER, QUOTE, CODE, HIDE*/
+blockquote {
+	margin: 5px;
+	padding: 5px 10px;
+	background: #F8F8F8 url("https://i.imgur.com/nywm6NK.png") no-repeat;
+	background-position: 10px 7px;
+	background-size: 12px;
+	border-width: 0px 0px 1px 0px;
+	border-color: rgba(204,204,204,.5);
+	border-style: solid;
+	color: #525252;
+	font-size: 12px;
+	overflow: hidden;
+}
+blockquote blockquote {
+	background-color: transparent;
+	font-size: 11px;
+	margin: 0.5em 15px 0pt 5px;
+	}
+blockquote cite {
+	color: #111;
+	font-family: 'Open Sans Condensed';
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	}
+blockquote cite cite {font-size: 1em;}
+
+/*Code, Spoiler, Hiden block*/
+dl.codebox {
+	margin: 0px 5px;
+	padding: 5px 0;
+	background-color: #F8F8F8;
+	border-width: 0px 0px 1px 0px;
+	border-color: rgba(204,204,204,.5);
+	border-style: solid;
+}
+dl.codebox dt {
+	margin: 0px 10px 5px 10px;
+	border-width: 0px 0px 2px 0px;
+	border-color: #111;
+	border-style: solid;
+	padding: 0px 0px 3px 0px;
+	color: #111;
+	font-family: 'Open Sans Condensed';
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-indent: 25px;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+dl.codebox dt:hover {border-color: #DD2F3A;}
+dl.codebox dt a, dl.codebox.hidecode:before {
+	float: right;
+	color: #DD2F3A;
+	font-size: 9px;
+	padding-top: 2px;
+	letter-spacing: 5px;
+	text-align: right;
+}
+dl.codebox code, .spoiler_content.hidden  {
+	margin: 10px 20px 5px 20px;
+	border-width: 0px 0px 0px 1px;
+	border-color: #C9C9C9;
+	border-style: solid;
+	padding: 5px;
+	color: #111;
+}
+dl.codebox.hidecode {
+	background-color: #FEFEFE;
+	padding: 0 10px 10px 10px;
+}
+dl.codebox.hidecode:before {
+	content: 'Contenido Oculto';
+	display: block;
+	float: none;
+	font-family: 'Open Sans Condensed';
+	color: #C9C9C9;
+	text-transform: uppercase;
+}
+	
+/*COLUMNA DOS*/
+.postprofile {
+	width: 220px;
+	max-height: 100% !important;
+	border: 0px;
+}
+.postprofile .p-profile {
+}
+.postprofile .p-color {
+	width: 220px;
+	height: 500px;
+	background-color: #F8F8F8;
+}
+.p-color b {display: none}
+.p-color.r-staff {background-image: url(https://i37.servimg.com/u/f37/18/87/59/00/staff_13.png);}
+.p-color.r-alpha {background-image: url(https://i37.servimg.com/u/f37/18/87/59/00/alpha_12.png);}
+.p-color.r-beta {background-image: url(https://i37.servimg.com/u/f37/18/87/59/00/beta_012.png);}
+.p-color.r-delta {background-image: url(https://i37.servimg.com/u/f37/18/87/59/00/delta_12.png);}
+.p-color.r-omega {background-image: url(https://i37.servimg.com/u/f37/18/87/59/00/omega_12.png);}
+.p-color.r-miembro {background-image: url(https://i37.servimg.com/u/f37/18/87/59/00/miembr12.png);}
+
+div.p-content::-webkit-scrollbar { width: 0px; height: 0px;}
+
+.p-profile .p-color ~ .p-field {
+	position: relative;
+	margin: -500px 10px 0px 10px;
+	height: 490px;
+	}
+.p-profile .p-color ~ .p-field .p-content {
+	height: 350px;
+	width: 200px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-align: center;
+	color: #F2F2F2;
+}
+.p-profile .p-color.r-miembro ~ .p-field .p-content {
+	background-image: url(https://i37.servimg.com/u/f37/18/87/59/00/avatar14.png);
+	background-position: -1px 0px;
+}
+.p-profile .p-color ~ .p-field .p-content br,
+.p-profile .p-color ~ .p-field .p-content b {display: none;}
+.p-profile .p-color ~ .p-field .p-content img {
+	opacity: 1;
+	visibility: visible;
+	max-height: 500px;
+	margin-top: -20px;
+	margin-bottom: -100%;
+	pointer-events: none;
+	display: block;
+    position: relative;
+    top: 5px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 2px);
+	transition: visibility 0s linear 0s, opacity 0.5s linear, max-height .3s linear 0s;
+}
+.p-profile .p-color ~ .p-field .p-content:hover img {
+	opacity: 0;
+	visibility: hidden;
+	max-height: 350px;
+	transition: visibility 0s linear 0.5s, opacity 0.5s linear, max-height .3s linear .3s;
+}
+.p-profile .p-color ~ .p-field .p-content span.label {
+	display: block;
+}
+.p-profile .p-color ~ .p-field .p-name {
+	text-align: center;
+}
+.p-profile .p-color ~ .p-field .p-name a span strong {
+	font-family: 'Open Sans Condensed' !important;
+	font-size: 22px;
+	text-shadow: 0px 2px 2px #111;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+.postprofile .p-name a span strong:hover {
+	-webkit-filter: brightness(1.5);
+}
+.p-profile .p-color.r-staff ~ .p-field .p-name a span strong {
+	text-shadow: 0px 2px 2px #f2f2f2;
+}
+.p-profile .p-color.r-staff ~ .p-field .p-name a span strong:hover {
+	color: #DD2F3A;
+	text-shadow: 0px 2px 2px #111;
+
+}
+
+
+.postprofile .p-links {
+}
+
+
+
+
+/* Invitados ----------- TEMAS SIMILARES*/
+#ptrafic_close, #ptrafic_open {
+	width: 95%;
+	background-color: rgba(204,204,204,.1);
+	margin: 0px auto;
+	margin-top: 10px;
+  	box-shadow: none;
+	border: 1px solid #9C9C9C;
+}
+
+/* ----------- PIE DE HERRAMIENTAS*/
+.topic-footer {
+	background-color: rgba(204,204,204,.0);
+	border-top: 5px solid #DD2F3A;
+}
+.topic-footer .permissions, 
+.topic-footer .tools {
+	display: inline-block;
+	vertical-align: top;
+	margin: 1%;}
+.topic-footer .permissions,
+.topic-footer .tools {width: 48%;}
+
+
+
+/* ----------------------------
+----------- AVATARS & PERFILES	
+-----------------------------*/
+
+
+/* ----------------------------
+----------- FORMATOS VARIADOS	
+-----------------------------*/
+p {
+	margin: 0px;
+}
+fieldset {
+	padding: 5px;
+}
+.panel {
+	padding: 0px 10px;
+}
+.inputbox, input:-webkit-autofill {
+	background-color: rgb(255,255,255) !important;
+	border-color: #C9C9C9;
+	color: #111111;
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+input[type=radio], input[type=checkbox] {/**/
+	width: 14px !important;
+	height: 14px;
+	background-color: #F2F2F2;
+	margin: 1px 4px;
+	padding: 0px;
+	border: 3px solid #F2F2F2;
+	border-radius: 50%;
+	color:#FFF;
+	-webkit-appearance:button;
+	box-shadow: 0px 1px 1px #9C9C9C;
+}
+input[type="radio"]:checked, input[type=checkbox]:checked {/**/
+	background-color: #DD2F3A !important;
+	border-radius: 50%
+}
+
+label {
+	color: #525252 !important;
+}
+select {
+	border-color: #C9C9C9 !important;
+}
+table {
+	border-spacing: 0;
+}
+
+/* ----------- MENÚ DE MENSAJES PRIVADOS*/
+#privmsgs-menu {
+	margin-top: 10px;
+	padding: 0px !important;
+	border-bottom: 1px dashed #9C9C9C;
+	color: #DD2F3A;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+}
+ul#privmsgs-menu li {
+	display: inline-block;
+	margin: 0px 2%;
+	line-height: 30px;
+	vertical-align: bottom;
+}
+#privmsgs-menu li img {
+	display: block;
+	padding: 5px;
+	margin: 0px auto;
+}
+p.right {float: right;}
+
+/* ----------- EDITAR PERFIL ATRIBUTOS*/
+#tabs {
+	margin-left: 20px !important;
+}
+#tabs .activetab a, #tabs .activetab a span {
+	background-color: #111111 !important;
+	border: none;
+	color: #c9c9c9 !important;
+}
+#cp-main .panel.sig {
+	background-color: #C9C9C9 !important;
+}
+#cp-main {
+	width: 100%;
+	margin: 0px;
+	border-color: #111111;
+	border-width: 30px 0px 0px 10px;
+	border-style: solid;
+	padding: 10px;
+}
+
+/* ----------- CAJA FLOTANTE DE BUSQUEDA*/
+.center-overview, .center-overview a:link {
+	color: #9C9C9C;
+}
+#search-box, .search-box {
+	display: none;
+}
+
+/* ----------- EDITOR DE TEXTO*/
+.sceditor-button, .sceditor-button div {
+	box-sizing: content-box !important;
+}
+
+/* ----------- COLOR HOVER DE ROWS*/
+li.row,
+table.table1 tbody tr,
+table.table1 tbody tr.hover,
+table.forumline tr:hover td {
+	border: none;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+li.row:hover,
+table.table1 tbody tr:hover,
+table.table1 tbody tr.hover,
+table.forumline tr:hover td {
+	background-color: rgba(221,47,58,.2);
+}
+/*ESQUINAS REMOVIDAS, ESPACIOS REMOVIDOS*/
+span.corners-bottom, span.corners-bottom span, span.corners-top, span.corners-top span {
+	display: none !important;
+}
+
+/* style-my-tootltips plugin, tooltip styling */
+#s-m-t-tooltip {
+	/* basic */
+	max-width:300px;
+	z-index:1000;
+	margin:24px 14px 7px 12px;
+	/* style and design */
+    background: #F2F2F2;
+	border: 1px solid #c9c9c9;
+    color: #111;
+    font-family: 'Open Sans Condensed';
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 2px 5px;
+    text-transform: uppercase;
+}
+
+/* ----------- FECHA DEL FORO */
+p.right.rightside + p,
+p:nth-of-type(1) {display:none;}
+
+.fechaactual p:nth-of-type(1),
+.ultimavisita p:nth-of-type(1),
+p.copyright,
+p.nomargin.path,
+p.author,
+.pathname-box p,
+.topic-actions+p,
+#logo-desc p,
+#info_open p,
+.inner p,
+p.center,
+.tools p.right {display: block;}
+
+.fechauserforo {
+	z-index: 97;
+	position: absolute;
+	top: 50px;
+	width: 950px;
+	text-align: right;
+	color: #f2f2f2;
+	font-size: 9px !important;
+	font-family: 'Open Sans Condensed';
+	font-weight: 700;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
