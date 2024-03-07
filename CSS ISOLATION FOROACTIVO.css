@@ -76,7 +76,7 @@ body {
     #page-header {margin-bottom: 0px;}}
 
 #page-header .navbar {
-	display: none !important;}
+	display: block}
 .navbar {
 	background-color: #111111;
 	padding: 10px;
