@@ -59,7 +59,7 @@ background: url('https://www.toptal.com/designers/subtlepatterns/patterns/dark_w
 
 /*BARRAS DE NAVEGACIÓN*/
 #page-header {
-	background-image: url('https://s5.postimg.org/bgtlziefb/Isolation_Header.png');
+	background-image: url('https://imgur.com/FCFwALD');
 	background-position: center 10px;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -666,9 +666,9 @@ h2 {
 		margin-right: 15px;
 	}
 	/*Titulo en una pagina aislada*/
-	.forum-page-title + .categorias .table-title h2 {
+	.forum-page-title + /*.categorias*/ .table-title h2 {
 		color: #9C9C9C; font-size: 30px;}
-	.forum-page-title + .categorias .table-title h2:before {display: none;}
+	.forum-page-title + /*.categorias*/ .table-title h2:before {display: none;}
 
 	.table-title h2 sup {display: none;}
 	.table-title h2 sub {display: inline-block;}
@@ -741,57 +741,57 @@ input.button:hover, input.button1:hover, input.button2:hover {
 -----------------------------*/
 .top-linklist {display: none;}
 
-.categorias {background: transparent;}
+/*.categorias*/ {background: transparent;}
 
 /*Categorias OFF ROL*/
-.categorias .forabg {
+/*.categorias*/ .forabg {
 	margin: 0px;
 	border-top: 20px solid #F3F3F0;
 	padding: 0px;
 	padding-bottom: 20px;
 }
-.categorias .forabg:first-of-type {
+/*.categorias*/ .forabg:first-of-type {
 	border-top: 0px;
 }
 
 /*Cabecera*/
-.categorias .forabg .forums {padding: 0 10px;text-align: center;}
-.categorias .forabg .header {
+/*.categorias*/ .forabg .forums {padding: 0 10px;text-align: center;}
+/*.categorias*/ .forabg .header {
 	height: 130px;
 	padding: 20px 30px 20px 30px;
 	}
-.categorias .forabg .header:first-of-type {
+/*.categorias*/ .forabg .header:first-of-type {
 	border-top: 20px solid transparent;}
-.categorias .forabg .header .dterm {
+/*.categorias*/ .forabg .header .dterm {
 	width: 840px;
 	margin: 0;
 	border: 2px solid #111;
 	padding: 10px 15px;}
 	/*Header en un página aislada*/
-	.forum-page-title + .categorias .forabg .header {
+	.forum-page-title + /*.categorias*/ .forabg .header {
 		height: 50px;
 		border: none !important; 
 		padding: 0px;}
-	.forum-page-title + .categorias .forabg .header .dterm {border: none;}
-.categorias .forabg .header .topics, 
-.categorias .forabg .header .posts, 
-.categorias .forabg .header .lastpost {display: none;}
+	.forum-page-title + /*.categorias*/ .forabg .header .dterm {border: none;}
+/*.categorias*/ .forabg .header .topics, 
+/*.categorias*/ .forabg .header .posts, 
+/*.categorias*/ .forabg .header .lastpost {display: none;}
 
 /*Cuerpo*/
-.categorias .forabg .row {
+/*.categorias*/ .forabg .row {
 	position: relative;
 	display: inline-block;
 	width: 420px;
 	margin: 10px 10px;
 	padding: 5px 10px;}
-	.categorias .forabg .row:hover {
+	/*.categorias*/ .forabg .row:hover {
 		background-color: transparent;}
-.categorias .forabg .row .icon {
+/*.categorias*/ .forabg .row .icon {
 	background-position: 0px 0px !important;
 	margin: -6px -11px;
 	padding: 0px;}
 	
-.categorias .forabg .row .dterm {
+/*.categorias*/ .forabg .row .dterm {
 	display: table;
 	width: 100%;
 	padding: 20px 10px 0px 10px;
@@ -804,7 +804,7 @@ input.button:hover, input.button1:hover, input.button2:hover {
 		text-transform: uppercase;
 		line-height: 100%;}
 	a.forumtitle:hover {text-shadow: -.1em -.1em 0px rgba(221,47,58,.3);}
-.categorias .forabg .row .topics {
+/*.categorias*/ .forabg .row .topics {
 	margin: 0px 0px 0px 0px;
 	color: #525252;
 	font-family: 'Montserrat';
@@ -814,8 +814,8 @@ input.button:hover, input.button1:hover, input.button2:hover {
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 5px;}
-	.categorias .forabg .topics dfn {display: inline-block; font-style: normal;}
-.categorias .forabg .row .description {
+	/*.categorias*/ .forabg .topics dfn {display: inline-block; font-style: normal;}
+/*.categorias*/ .forabg .row .description {
 	display: table-cell;
 	vertical-align: middle;
 	width: auto;
@@ -825,8 +825,8 @@ input.button:hover, input.button1:hover, input.button2:hover {
 	padding: 0px;
 	color: #111;
 	font-size: 10.5px;}
-.categorias .forabg .row .description br,
-.categorias .forabg .row .lastpost br {display: none;}
+/*.categorias*/ .forabg .row .description br,
+/*.categorias*/ .forabg .row .lastpost br {display: none;}
 	/*Estilo de Contenido en Descripción*/
 	.description div {
 		height: 40px;
@@ -844,7 +844,7 @@ input.button:hover, input.button1:hover, input.button2:hover {
 			transition: visibility 0s linear 0.5s,opacity 0.5s linear;
 			-moz-transition: visibility 0s linear 0.5s,opacity 0.5s linear;
 			-webkit-transition: visibility 0s linear 0.5s,opacity 0.5s linear;}
-		.categorias .forabg .row .dterm h3:hover ~ .description .dinfo {
+		/*.categorias*/ .forabg .row .dterm h3:hover ~ .description .dinfo {
 			opacity: 1;
 			visibility: visible;
 			transition-delay:0s;}
@@ -856,7 +856,7 @@ input.button:hover, input.button1:hover, input.button2:hover {
 			transition: all 0.3s ease-out;
 			-moz-transition: all 0.3s ease-out;
 			-webkit-transition: all 0.3s ease-out;}
-		.categorias .forabg .row .dterm h3:hover ~ .description .dlinks {
+		/*.categorias*/ .forabg .row .dterm h3:hover ~ .description .dlinks {
 			opacity: 0;}
 		.description a {
 			display: inline-block;
@@ -872,7 +872,7 @@ input.button:hover, input.button1:hover, input.button2:hover {
 			.description a:before {content: '/ '; color: #DD2F3A}
 			.description a:hover {color: #DD2F3A;} 
 
-.categorias .forabg .row .lastpost {
+/*.categorias*/ .forabg .row .lastpost {
 	width: 420px;
 	border-top: 3px solid #111;
     background-image: linear-gradient(-45deg, rgba(201, 201, 201,.5) 25%, transparent 25%, transparent 50%, rgba(201, 201, 201,.5) 50%, rgba(201, 201, 201,.5) 75%, transparent 75%, transparent);
@@ -881,7 +881,7 @@ input.button:hover, input.button1:hover, input.button2:hover {
 	padding-left: 5px;
 	text-align: left;}
 	/*Lastpost*/
-	.categorias .lastpost-topic {
+	/*.categorias*/ .lastpost-topic {
 		  display: table-cell !important;
 		  vertical-align: middle;
 		  word-wrap: break-word;
@@ -889,23 +889,23 @@ input.button:hover, input.button1:hover, input.button2:hover {
 		  margin: 0px;
 		  padding: 5px 0px;
 		  text-align: left;}
-		  .categorias .lastpost-topic {
+		  /*.categorias*/ .lastpost-topic {
 			  color: rgba(0, 0, 0, 0);
 			  font-size: 0px;}
-	.categorias .forabg .row .lastpost a {
+	/*.categorias*/ .forabg .row .lastpost a {
 		padding: 0 5px 0 0px;
 		font-weight: 700;
 		font-size: 15px;
 		text-transform: capitalize;}
 	
-	.categorias .forabg .row .lastpost .color-groups {
+	/*.categorias*/ .forabg .row .lastpost .color-groups {
 		float: none;
 		display: inline;
 		padding: 0px;
 		font-size: 15px;
 		font-weight: 100;
 		text-transform: lowercase;}
-			.categorias .forabg .row .lastpost .gensmall:before {
+			/*.categorias*/ .forabg .row .lastpost .gensmall:before {
 				content: 'by';
 				cursor: default;
 				color: #111;
@@ -914,7 +914,7 @@ input.button:hover, input.button1:hover, input.button2:hover {
 				font-weight: 400;
 				text-transform: lowercase;
 				padding-right: 5px;}
-	.categorias .lastpost-avatar {
+	/*.categorias*/ .lastpost-avatar {
 		display: none;
 		float: left;
 		width: 115px;
@@ -922,29 +922,29 @@ input.button:hover, input.button1:hover, input.button2:hover {
 		margin: 0px;
 		border-radius: 0px;
 		padding: 17.5px !important;}
-	.categorias .lastpost-avatar .border {
+	/*.categorias*/ .lastpost-avatar .border {
 		position: relative;
 		overflow: hidden;
 		width: 80px;
 		height: 80px;}
-	.categorias .lastpost-avatar img {
+	/*.categorias*/ .lastpost-avatar img {
 		opacity: 1;
 		width: inherit;
 		height: initial;
 		margin: 0px;
 		border-radius: 0px;}
-	.categorias .forabg .row .lastpost .last-post-icon {display: inline-block;}
+	/*.categorias*/ .forabg .row .lastpost .last-post-icon {display: inline-block;}
 
 /*Categorias ON ROL*/
-.categorias .forabg[data-title*="—"] {
+/*.categorias*/ .forabg[data-title*="—"] {
 	position: relative;}
 /*Header*/
-.categorias .forabg[data-title*="—"] .header .dterm {
+/*.categorias*/ .forabg[data-title*="—"] .header .dterm {
 	position: absolute;
 	z-index: 2;}
 	
 /*Cuerpo*/
-.categorias .forabg[data-title*="—"] .row {
+/*.categorias*/ .forabg[data-title*="—"] .row {
 	z-index: 2;
 	position: relative;
 	width: 840px;
@@ -953,26 +953,26 @@ input.button:hover, input.button1:hover, input.button2:hover {
 	padding: 6px 10px;
 	background-color: rgba(255,255,255,.2);}
 
-.categorias .forabg[data-title*="—"] .row .dterm {
+/*.categorias*/ .forabg[data-title*="—"] .row .dterm {
 	position: relative;
 	z-index: 2;
 	top: 0px;
 	width: 485px;
 	padding-top: 40px}
-	.categorias .forabg[data-title*="—"] 
+	/*.categorias*/ .forabg[data-title*="—"] 
 	.row .dterm a.forumtitle,
-	.categorias .forabg[data-title*="—"] 
+	/*.categorias*/ .forabg[data-title*="—"] 
 	.row .dterm a.forumtitle sup {
 		color: #F2F2F2 !important;
 		text-shadow: 0 0 1px #000, 0 0 1px #000;}
-	.categorias .forabg[data-title*="—"] .row .topics {
+	/*.categorias*/ .forabg[data-title*="—"] .row .topics {
 		margin: 0;
 		border: none;
 		color: #C9C9C9;
 		text-align: center;
 		text-shadow: 0 0 1px #000, 0 0 1px #000;}	
 
-.categorias .forabg[data-title*="—"] .row .places {
+/*.categorias*/ .forabg[data-title*="—"] .row .places {
 	z-index: -1;
 	position: absolute;
 	top: 0px;
@@ -980,24 +980,24 @@ input.button:hover, input.button1:hover, input.button2:hover {
 	width: 818px;
 	height: 198px;
 	overflow: hidden;}
-	.categorias .forabg[data-title*="—"] .row .p-desc {
+	/*.categorias*/ .forabg[data-title*="—"] .row .p-desc {
 		position: absolute;
 		z-index: 5 !important;
 		top: 5px;
 		left: 100%;
 		width: 330px;}
-	.categorias .forabg[data-title*="—"] .row .p-desc div {
+	/*.categorias*/ .forabg[data-title*="—"] .row .p-desc div {
 		position: relative;
 		display: table-cell;
 		vertical-align: middle;
 		height: 188px;}
-	.categorias .forabg[data-title*="—"] .row .p-desc span {
+	/*.categorias*/ .forabg[data-title*="—"] .row .p-desc span {
 		background-color: rgba(0,0,0,.5);
 		padding: 10px;
 		color: #C9C9C9}
 	
-.categorias .forabg[data-title*="—"] .row .lastpost br {display: block;}
-.categorias .forabg[data-title*="—"] .row .lastpost {
+/*.categorias*/ .forabg[data-title*="—"] .row .lastpost br {display: block;}
+/*.categorias*/ .forabg[data-title*="—"] .row .lastpost {
 	position: absolute;
 	z-index: 2;
 	top: 90px;
@@ -1010,23 +1010,23 @@ input.button:hover, input.button1:hover, input.button2:hover {
 	padding-right: 5px;
 	color: #9C9C9C !important;
 	font-family: 'Open Sans Condensed'}
-	.categorias .forabg[data-title*="—"] .lastpost-topic {
+	/*.categorias*/ .forabg[data-title*="—"] .lastpost-topic {
 		color: inherit;
 		font-size: inherit;}
-			.categorias .forabg[data-title*="—"] .row .lastpost .gensmall:before {
+			/*.categorias*/ .forabg[data-title*="—"] .row .lastpost .gensmall:before {
 				color: #9C9C9C;}
-	.categorias .forabg[data-title*="—"] .lastpost-topic {height: 70px;}
-	.categorias .forabg[data-title*="—"] .row .lastpost a {font-size: 12px;}
-	.categorias .forabg[data-title*="—"] .lastpost-avatar {
+	/*.categorias*/ .forabg[data-title*="—"] .lastpost-topic {height: 70px;}
+	/*.categorias*/ .forabg[data-title*="—"] .row .lastpost a {font-size: 12px;}
+	/*.categorias*/ .forabg[data-title*="—"] .lastpost-avatar {
 		display: inline-block !important;
 		width: 70px;
 		height: 70px;
 		padding: 10px !important;}
-	.categorias .forabg[data-title*="—"] .lastpost-avatar .border {
+	/*.categorias*/ .forabg[data-title*="—"] .lastpost-avatar .border {
 		width: 50px;
 		height: 50px;}
-.categorias .forabg[data-title*="—"] .row span.lastpost-topic a,
-.categorias .forabg[data-title*="—"] .row span.lastpost-topic a span[style*="color:#000000"] {
+/*.categorias*/ .forabg[data-title*="—"] .row span.lastpost-topic a,
+/*.categorias*/ .forabg[data-title*="—"] .row span.lastpost-topic a span[style*="color:#000000"] {
 	color: #C9C9C9 !important;}
 
 /* ----------------------------
