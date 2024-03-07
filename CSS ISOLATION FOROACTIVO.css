@@ -14,8 +14,9 @@
 /*Fondo de la página*/
 body {
 	height: auto;
-background: url("https://i.imgur.com/BJnBNQJ.png");	background-color: #111;
-	background-size: ;
+	background: url("https://i.imgur.com/BJnBNQJ.png");	
+	background-color: #111;
+	background-size: auto;
 	margin: 20px 0px 20px 0px;
 	padding:0;
 	color: #9C9C9C;
