@@ -782,7 +782,7 @@ input.button:hover, input.button1:hover, input.button2:hover {
 /*.categorias*/ .forabg .row {
 	position: relative;
 	display:  inline-table;
-	width: 400px;
+	width: 380px;
 	margin: 10px 10px;
 	padding: 5px 10px;}
 	/*.categorias*/ .forabg .row:hover {
