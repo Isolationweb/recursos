@@ -14,8 +14,7 @@
 /*Fondo de la página*/
 body {
 	height: auto;
-	background: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png");	
-	background-color: #111;
+background: url('https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png');	background-color: #111;
 	background-size: ;
 	margin: 20px 0px 20px 0px;
 	padding:0;
@@ -30,7 +29,7 @@ body {
 	width: auto;
 	margin-top: -60px;
 	background-color: #FEFEFE;
-	background: url("https://i.imgur.com/6IVSPQc.png") repeat;
+	background: url('https://www.toptal.com/designers/subtlepatterns/patterns/crossword.png') repeat;
 	border: none;
 	padding: 10px 20px;}
 
@@ -60,7 +59,7 @@ body {
 
 /*BARRAS DE NAVEGACIÓN*/
 #page-header {
-	background-image: url("https://s5.postimg.org/bgtlziefb/Isolation_Header.png");
+	background-image: url('https://s5.postimg.org/bgtlziefb/Isolation_Header.png');
 	background-position: center 10px;
 	background-repeat: no-repeat;
 	background-size: contain;
