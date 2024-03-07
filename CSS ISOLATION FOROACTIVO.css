@@ -36,7 +36,7 @@ body {
 
 /*Cuerpo de la cabecera*/
 .headerbar {
-	display: block;
+	display: none;
 	height: auto ;
 	padding: 0px;}
 #page-header {
