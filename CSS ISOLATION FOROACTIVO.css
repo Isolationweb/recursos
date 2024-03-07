@@ -781,8 +781,8 @@ input.button:hover, input.button1:hover, input.button2:hover {
 /*Cuerpo*/
 /*.categorias*/ .forabg .row {
 	position: relative;
-	display: inline-table;
-	width: 420px;
+	display:  inline-table;
+	width: 400px;
 	margin: 10px 10px;
 	padding: 5px 10px;}
 	/*.categorias*/ .forabg .row:hover {
