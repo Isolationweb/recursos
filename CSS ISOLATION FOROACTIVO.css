@@ -26,7 +26,7 @@ body {
 /*Fondo de todo el contenido*/
 #wrap {
 	max-width: 1240px;
-	min-width: 970px;
+	min-width: 950px;
 	width: auto;
 	margin-top: -60px;
 	background-color: #FEFEFE;
