@@ -756,7 +756,7 @@ input.button:hover, input.button1:hover, input.button2:hover {
 .top-linklist {display: none;}
 
 /*Categorias OFF ROL*/
-.forabg {
+[title~="—"] .forabg {
 	background: transparent;
 	margin: 0px;
 	border-top: 20px solid #F3F3F0;
