@@ -251,7 +251,7 @@ input.button:hover, input.button1:hover, input.button2:hover {
     display: ;}
 
 /*Categorias OFF ROL*/
-.forabg:nth-child(-n + 1) {
+.forabg:nth-of-type(-n + 1) {
     margin: 0px 0px;
     padding: 0px;
     border-top: 20px solid #F3F3F0;}
@@ -260,16 +260,16 @@ input.button:hover, input.button1:hover, input.button2:hover {
     border-top: 0px solid #F3F3F0}
 
 /*Cabecera*/
-.forabg:nth-child(-n + 1) .forums {
+.forabg:nth-of-type(-n + 1) .forums {
     padding: 0 10px;
     text-align: center;}
 
-.forabg:nth-child(-n + 1) .header {
+.forabg:nth-of-type(-n + 1) .header {
     height: ;
     padding: 0px 0px;
     margin: 0px 35px 10px 35px;}
 
-.forabg:nth-child(-n + 1) .header .dterm, .forabg .header .dterm  {
+.forabg:nth-of-type(-n + 1) .header .dterm, .forabg .header .dterm  {
     height: 60px;
     width: 100%;
     margin: 15px 0px 0px 0px;
@@ -284,25 +284,25 @@ input.button:hover, input.button1:hover, input.button2:hover {
 
 .page-title + .forabg .header .dterm {border: none;}
 
-.forabg:nth-child(-n + 1) .header .topics, .forabg:nth-child(-n + 1) .header .posts, .forabg:nth-child(-n + 1) .header .lastpost {display: none;}
+.forabg:nth-of-type(-n + 1) .header .topics, .forabg:nth-of-type(-n + 1) .header .posts, .forabg:nth-child(-n + 1) .header .lastpost {display: none;}
 
 /*Cuerpo*/
-.forabg:nth-child(-n + 1) .row {
+.forabg:nth-of-type(-n + 1) .row {
     position: relative;
     display: inline-table;
     width: 350px !important;
     margin: 10px 10px;
     padding: 5px 10px;}
 
-.forabg:nth-child(-n + 1) .row:hover {
+.forabg:nth-of-type(-n + 1) .row:hover {
     background-color: transparent;}
 
-.forabg:nth-child(-n + 1) .row .icon {
+.forabg:nth-of-type(-n + 1) .row .icon {
     background-position: 0px 0px !important;
     margin: -6px -11px;
     padding: 0px;}
 
-.forabg:nth-child(-n + 1) .row .dterm {
+.forabg:nth-of-type(-n + 1) .row .dterm {
     display: table;
     width: 100%;
     padding: 20px 10px 0px 10px;
@@ -319,7 +319,7 @@ a.forumtitle, a.forumtitle sup {
 a.forumtitle:hover {
     text-shadow: -.1em -.1em 0px rgba(221,47,58,.3);}
 
-.forabg:nth-child(-n + 1) .row .topics {
+.forabg:nth-of-type(-n + 1) .row .topics {
     margin: 0px 0px 0px 0px;
     color: #525252;
     font-family: 'Montserrat';
@@ -330,11 +330,11 @@ a.forumtitle:hover {
     text-align: center;
     letter-spacing: 5px;}
 
-.forabg:nth-child(-n + 1) .topics dfn {
+.forabg:nth-of-type(-n + 1) .topics dfn {
     display: inline-block;
     font-style: normal;}
 
-.forabg:nth-child(-n + 1) .row .description {
+.forabg:nth-of-type(-n + 1) .row .description {
     display: table-cell;
     vertical-align: middle;
     width: auto;
@@ -345,8 +345,8 @@ a.forumtitle:hover {
     color: #111;
     font-size: 10.5px;}
 
-.forabg:nth-child(-n + 1) .row .description br, 
-.forabg:nth-child(-n + 1) .row .lastpost br {display: none;}
+.forabg:nth-of-type(-n + 1) .row .description br, 
+.forabg:nth-of-type(-n + 1) .row .lastpost br {display: none;}
 
 /*Estilo de Contenido en Descripción*/
 .description div {
