@@ -133,7 +133,7 @@ h1.page-title {
 .page-title a:visited {
     color: rgba(221,47,58,.8);}
 
-.page-title a:before {
+h1.page-title a:before {
     content: '✖';
     float: left;
     display: inline-block;
@@ -142,7 +142,7 @@ h1.page-title {
     font-size: 22px;
     line-height: 30px;}
 
-.page-title a:hover:before {
+h1.page-title a:hover:before {
     color: #111111;}
 
 h2 {
