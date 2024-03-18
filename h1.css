@@ -173,12 +173,9 @@ h2 {
     font-size: 30px;}
 
 .page-title + .table-title h2:before {
-    display: none;}
+    display: inline-block;;}
 
 .table-title h2 sup {
-    display: none;}
-
-.table-title h2 sub {
     display: inline-block;}
 
 sup {
@@ -186,7 +183,7 @@ sup {
     font-size: inherit;}
 
 sub {
-    display: none;
+    display: inline-block;;
     vertical-align: baseline;
     font-size: inherit;}
 
