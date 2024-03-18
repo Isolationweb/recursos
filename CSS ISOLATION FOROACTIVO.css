@@ -14,41 +14,53 @@
 /*Fondo de la página*/
 body {
 	height: auto;
-	background: url("https://i.imgur.com/BJnBNQJ.png");	
-	background-color: #111;
-	background-size: auto;
-	margin: 20px 0px 20px 0px;
-	padding:0;
-	color: #9C9C9C;
-	font-family: 'Montserrat';
+	background-color: #111 !important;
+	background-image: url(https://i.servimg.com/u/f63/20/54/66/82/fondo_10.jpg);
+	background-attachment: fixed;
+	margin: 20px 20px 20px 20px !important;
+	padding:0 !important;
+	color: #9C9C9C !important;
+	font-family: 'Montserrat' !important;
 	font-size: 10px;
 }
 /*Fondo de todo el contenido*/
 #wrap {
 	max-width: 1240px;
-	min-width: 950px;
+	min-width: 950px !important;
 	width: auto;
-	margin-top: -60px;
-	background-color: #FEFEFE;
-	background: url("https://i.imgur.com/6IVSPQc.png") repeat;
+	margin: 10px auto 0px auto !important;
+	background-color: transparent;
 	border: none;
-	padding: 10px 20px;}
+	padding: 10px 20px;
+}
 
 /*Cuerpo de la cabecera*/
-.headerbar {
-	display: none;
-	height: auto ;
-	padding: 0px;}
 #page-header {
 	height: auto;
+	min-height: 450px;
 	background-color: transparent;
 	padding: 0px;}
+.headerbar {
+	display: block;
+	height: auto ;
+	background-image: url("https://imgur.com/FCFwALD.png");
+	background-position: center 10px;
+	background-repeat: no-repeat;
+	background-size: contain !important;
+	padding: 0px;}
 /*Cuerpo de el inicio y fin de la página*/
-#page-body, #page-footer {
+#page-body {
 	width: 950px;
 	margin: auto;
 	padding: 25px;
-	background-color: transparent;
+	background-color: #FEFEFE;
+	background: url("https://i.servimg.com/u/f63/20/54/66/82/6ivspq10.png") repeat;
+}
+#page-footer {
+	width: 950px;
+	margin: auto;
+	padding: 25px;
+	background-color:#111111;
 }
 	#content-container div#content {
 		margin-right: 0px;
@@ -60,14 +72,15 @@ body {
 
 /*BARRAS DE NAVEGACIÓN*/
 #page-header {
+	width: auto;
 	background-image: url("https://imgur.com/FCFwALD.png");
 	background-position: center 10px;
 	background-repeat: no-repeat;
-	background-size: contain;
-	max-width: 1200px;
-	min-width: 970px;
+	background-size: contain !important;
+	max-height: 750px;
+	min-height: 480px;
 	height: 750px;
-	margin-bottom: -150px;
+	margin-bottom: -150px !important;
 	padding: 0px 50px;
 	transition: all 1s ease-out;
 	-moz-transition: all 1s ease-out;
@@ -109,13 +122,13 @@ body {
 	position: relative;
 	width: 900px;
 	height: 250px;
-	background-image: url('http://i.imgur.com/Fft0Fzg.png');
+	background-image: url('https://i.imgur.com/Fft0Fzg.png');
 	border-spacing: 20px;
 	padding: 50px 0px 10px 0px;}
 .tab-contenido {
 	position: absolute;
 	top: 0px;
-	background-image: url('http://i.imgur.com/7aY97EW.png');
+	background-image: url('https://i.imgur.com/7aY97EW.png');
 	background-color: #F8F8F8;}
 
 	/*CELDA*/
@@ -140,7 +153,7 @@ body {
 		cursor: pointer;
 		position: absolute;
 		top: 0;
-		background: url('http://i.imgur.com/Ds2UwQO.png') no-repeat;
+		background: url('https://i.imgur.com/Ds2UwQO.png') no-repeat;
 		background-size: cover;
 		width: 213px;
 		height: 214px;
@@ -152,7 +165,7 @@ body {
 	.tab-boton {
 		width: 90px; height:90px;}
 		
-	.tab-boton:hover, .tab-boton.active:hover {background: url('http://i.imgur.com/eJSECg9.png') no-repeat;
+	.tab-boton:hover, .tab-boton.active:hover {background: url('https://i.imgur.com/eJSECg9.png') no-repeat;
 		background-size: cover;
 		transition: all 1s ease-out;
 		-moz-transition: all 1s ease-out;
@@ -180,7 +193,7 @@ body {
 		padding: 0px 10px !important;
 		font-size: 35px;
 		/*textura de texto*/
-		background: -webkit-linear-gradient(transparent, transparent), top right url(http://i.imgur.com/ss82wo7.png);}
+		background: -webkit-linear-gradient(transparent, transparent), top right url(https://i.imgur.com/ss82wo7.png);}
 	.anuncios h1 { width: 150px;}
 	
 	.tab-contenido h1 {
@@ -191,7 +204,7 @@ body {
 		white-space: normal;
 		word-wrap: normal;
 		/*textura de texto*/
-		background: -webkit-linear-gradient(transparent, transparent), 50% 30% url(http://i.imgur.com/wINoTAi.png);}
+		background: -webkit-linear-gradient(transparent, transparent), 50% 30% url(https://i.imgur.com/wINoTAi.png);}
 	.censo .sub b {
 		font-family: 'Open Sans Condensed';
 		font-size: 18px; 
@@ -274,7 +287,7 @@ body {
 	}
 	/* ----------- CENSO*/
 	.tab-contenido .censo {
-		background: url('http://i.imgur.com/f7v1tvq.png');
+		background: url('https://i.imgur.com/f7v1tvq.png');
 		background-size: contain;
 		image-rendering: -webkit-optimize-contrast;
 		image-rendering: crisp-edges;
@@ -389,7 +402,7 @@ body {
 		opacity: .5;
 		width: 30px;
 		height: 30px;
-		background-image: url('http://i.imgur.com/cVOVtqf.png');
+		background-image: url('https://i.imgur.com/cVOVtqf.png');
 		margin: 0px 5px 10px 5px;
 		border-radius: 1px;
 		padding: 0px;
@@ -424,7 +437,7 @@ body {
 		width: 200px;
 		min-height: 200px;
 		max-height: 100%;
-		background: url('http://i.imgur.com/d1BXbEr.png') top left local, url('http://imgur.com/SzIY42N.png') bottom left;
+		background: url('https://i.imgur.com/d1BXbEr.png') top left local, url('https://imgur.com/SzIY42N.png') bottom left;
 		background-repeat: no-repeat;
 		overflow: auto;}
 	  /*ESTILO DE CONTENIDO*/
@@ -564,14 +577,14 @@ body {
 			/*busquedas*/
 			.sidebar-widget #widget-busquedas .topictitle {
 				display: block;
-				background: rgba(204,204,204,.3) url('http://i.imgur.com/JrbPcUd.png') no-repeat 5px center;
+				background: rgba(204,204,204,.3) url('https://i.imgur.com/JrbPcUd.png') no-repeat 5px center;
 				background-size: 10px;
 				margin-bottom: 5px;
 				border: 1px solid #C9C9C9;
 				padding: 7px;
 				padding-left: 25px;}
 			.sidebar-widget #widget-busquedas .topictitle:hover {
-				background: url('http://i.imgur.com/4tpDaSp.png') no-repeat 5px center;
+				background: url('https://i.imgur.com/4tpDaSp.png') no-repeat 5px center;
 				background-size: 10px;}
 
 /* ----------------------------
@@ -661,7 +674,7 @@ h2 {
 		line-height: 105%;
 	}
 	.table-title h2:before {
-		content: url(http://i.imgur.com/1cmz48O.png);
+		content: url(https://i.imgur.com/1cmz48O.png);
 		display: inline-block;
 		float: left;
 		margin-right: 15px;
@@ -742,29 +755,28 @@ input.button:hover, input.button1:hover, input.button2:hover {
 -----------------------------*/
 .top-linklist {display: none;}
 
-/*.categorias*/ {background: transparent;}
-
 /*Categorias OFF ROL*/
-/*.categorias*/ .forabg {
+.forabg {
+	background: transparent;
 	margin: 0px;
 	border-top: 20px solid #F3F3F0;
 	padding: 0px;
 	padding-bottom: 20px;
 }
-/*.categorias*/ .forabg:first-of-type {
+.forabg:first-of-type {
 	border-top: 0px;
 }
 
 /*Cabecera*/
-/*.categorias*/ .forabg .forums {padding: 0 10px;text-align: center;}
-/*.categorias*/ .forabg .header {
+.forabg .forums {padding: 0 10px;text-align: center;}
+.forabg .header {
 	height: 130px;
 	padding: 20px 30px 20px 30px;
 	}
-/*.categorias*/ .forabg .header:first-of-type {
+.forabg .header:first-of-type {
 	border-top: 20px solid transparent;}
-/*.categorias*/ .forabg .header .dterm {
-	width: 840px;
+.forabg .header .dterm {
+	width: auto;
 	margin: 0;
 	border: 2px solid #111;
 	padding: 10px 15px;}
@@ -1211,7 +1223,7 @@ form .forabg .row .lastpost {
 
 /*ESTILO DENTRO DE UN ROW */
 .row .pagination {
-	background: url('https://s5.postimg.org/lgfbnxax3/Pages.png') left center no-repeat !important;
+	background: url('https://2img.net/h/s5.postimg.cc/lgfbnxax3/Pages.png') left center no-repeat !important;
 	margin-bottom: 0px;
 }
 .pagination span a,
@@ -1298,25 +1310,25 @@ p.left-box {
 /* ----------- SPRITE CSS*/
 /*DIRECCIONES*/
 .sprite-arrow_prosilver_down{
-	background: url("https://s5.postimg.org/45owvwj9j/Se_al_Abajo.png") no-repeat;
+	background: url("https://2img.net/h/s5.postimg.cc/45owvwj9j/Se_al_Abajo.png") no-repeat;
 	background-position: top left;
 	width:9.4px;
 	height:9.4px;
 	}
 .sprite-arrow_prosilver_left{
-	background: url("https://s5.postimg.org/fyrbdv53b/Se_al_Izquierda.png") no-repeat;
+	background: url("https://2img.net/h/s5.postimg.cc/fyrbdv53b/Se_al_Izquierda.png") no-repeat;
 	background-position: top left;
 	width:9.4px;
 	height:9.4px;
 	}
 .sprite-arrow_prosilver_right{
-	background: url("https://s5.postimg.org/601rdn69z/Se_al_Derecha.png") no-repeat;
+	background: url("https://2img.net/h/s5.postimg.cc/601rdn69z/Se_al_Derecha.png") no-repeat;
 	background-position: top left;
 	width:9.4px;
 	height:9.4px;
 	}
 .sprite-arrow_prosilver_up{
-	background: url("https://s5.postimg.org/3u7gj52tj/Se_al_Arriba.png") no-repeat;
+	background: url("https://2img.net/h/s5.postimg.cc/3u7gj52tj/Se_al_Arriba.png") no-repeat;
 	background-position: top left;
 	width:9.4px;
 	height:9.4px;
@@ -1577,7 +1589,7 @@ dl.codebox.hidecode:before {
 	border: 0px;}
 /*INVITADOS*/
 .postprofile .p-unrank {
-	background-image: url(https://s5.postimg.org/3semzue13/Invitados.png);
+	background-image: url(https://2img.net/h/s5.postimg.cc/3semzue13/Invitados.png);
 	background-color: #F3F3F0;
 	padding: 30px 10px 10px 10px;
 	color: #9C9C9C;
@@ -1619,11 +1631,11 @@ dl.codebox.hidecode:before {
 	background-repeat: no-repeat;
 	padding: 10px;}
 /*Rangos*/
-.postprofile .p-color.r-staff ~ .p-field {background-image: url(https://s5.postimg.org/kjzyile9z/Staff_02.png);}
-.postprofile .p-color.r-alpha ~ .p-field {background-image: url(https://s5.postimg.org/t7d5wls3r/Alpha_02.png);}
-.postprofile .p-color.r-beta ~ .p-field {background-image: url(https://s5.postimg.org/m6p63tqbr/Beta_02.png);}
-.postprofile .p-color.r-omega ~ .p-field {background-image: url(https://s5.postimg.org/bnp6ennnr/Omega_02.png);}
-.postprofile .p-color.r-miembro ~ .p-field {background-image: url(https://s5.postimg.org/58q5hzgxz/Miembro_02.png);}
+.postprofile .p-color.r-staff ~ .p-field {background-image: url(https://2img.net/h/s5.postimg.cc/kjzyile9z/Staff_02.png);}
+.postprofile .p-color.r-alpha ~ .p-field {background-image: url(https://2img.net/h/s5.postimg.cc/t7d5wls3r/Alpha_02.png);}
+.postprofile .p-color.r-beta ~ .p-field {background-image: url(https://2img.net/h/s5.postimg.cc/m6p63tqbr/Beta_02.png);}
+.postprofile .p-color.r-omega ~ .p-field {background-image: url(https://2img.net/h/s5.postimg.cc/bnp6ennnr/Omega_02.png);}
+.postprofile .p-color.r-miembro ~ .p-field {background-image: url(https://2img.net/h/s5.postimg.cc/58q5hzgxz/Miembro_02.png);}
 
 /*Nombre de Usuario*/
 .postprofile .p-profile .p-color ~ .p-field .p-name {
@@ -1931,7 +1943,7 @@ span.corners-bottom, span.corners-bottom span, span.corners-top, span.corners-to
 #s-m-t-tooltip {
 	/* basic */
 	max-width:300px;
-	z-index:1000;
+	z-index: 999;
 	margin: 24px 0px 0px 0px;
 	/* style and design */
     background: #F2F2F2;
@@ -1993,7 +2005,7 @@ p.last-visit, p.current {
 	width: 100%;
 	height: 25px;
 	color: #111;
-    z-index: 1000;
+    z-index: 999;
 }
 #navStatic .main-nav {
 	float: right;
@@ -2098,7 +2110,7 @@ a.alt {
 }
 /*Flechas*/
 #navStatic li.arrow > a.alt:after {
-	content: url(http://i68.servimg.com/u/f68/15/78/66/50/admin-10.gif);
+	content: url(https://i.servimg.com/u/f68/15/78/66/50/admin-10.gif);
 	padding-top: 5px;
 	float: right;
 }
@@ -2152,3 +2164,4 @@ a.alt {
 #new_message ~ ul a.full {display: block !important; background: #DD2F3A !important;}
 #new_message ~ ul a.full:hover {color: #F2F2F2 !important;}
 a.alt ~ ul a.full {display: none !important;}
+*/ /*
